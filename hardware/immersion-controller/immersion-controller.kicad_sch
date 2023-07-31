@@ -1,0 +1,89 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid bd6e6743-d7bb-4018-a688-d589a8d21d49)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text_box "or UL or IEC testing, all the components must be certified, if the components are not certified then you'll foot the bill for the testing. So the first step would be to establish where you want to sell the product, then find the regulatory standards that you need for the product."
+    (at 57.658 80.772 0) (size 46.228 23.114)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 098be250-b776-4785-beaf-f206a5ab4f7d)
+  )
+  (text_box "TODO\n====\nCheck PC817 and input resistors for 3.3v activation.\nCheck operation of Rotary Encoder\nCheck SMD component sizes.\nAdd External Reset\n"
+    (at 127.254 81.788 0) (size 54.102 28.448)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid dc92f056-1427-4c93-b5b7-2cb93f0a71a3)
+  )
+
+  (sheet (at 148.336 35.052) (size 40.386 16.002) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bc36bd11-3fe8-4335-9c44-42b1c7dd4ff6)
+    (property "Sheetname" "Relays & Output" (at 148.336 34.3404 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "output.kicad_sch" (at 148.336 51.6386 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 148.336 35.052 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "immersion-controller"
+        (path "/bd6e6743-d7bb-4018-a688-d589a8d21d49" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 36.83 35.052) (size 27.432 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid be0c28f2-d92a-481d-9fa0-7af2af8cc7a7)
+    (property "Sheetname" "Power Supply" (at 36.83 34.3404 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "psu.kicad_sch" (at 36.83 47.0666 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 36.83 35.052 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "immersion-controller"
+        (path "/bd6e6743-d7bb-4018-a688-d589a8d21d49" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 86.36 30.988) (size 31.496 20.066) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c342793f-dc31-48ad-871b-028ebc2ab27d)
+    (property "Sheetname" "MCU" (at 86.36 30.2764 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 86.36 51.6386 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 86.36 30.988 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "immersion-controller"
+        (path "/bd6e6743-d7bb-4018-a688-d589a8d21d49" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
