@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/../libraries/espressif/footprints/Espressif.pretty")(options "")(descr ""))
   (lib (name "ABRACON")(type "KiCad")(uri "${KIPRJMOD}/../components")(options "")(descr ""))
+  (lib (name "TE5")(type "KiCad")(uri "/Users/demonday/projects/immersion-controller/hardware/kicad-libraries/footprints/TE5.pretty")(options "")(descr ""))
 )
