@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP ALFT-03A-11
-D Common Mode Chokes / Filters CMC 2.1MH 1.5A 2LN TH
-K
-F https://abracon.com/Magnetics/new/ALFT-03A.pdf
-$ENDCMP
-#
-#End Doc Library

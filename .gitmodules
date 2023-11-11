@@ -1,6 +1,0 @@
-[submodule "hardware/libraries/espressif"]
-	path = hardware/libraries/espressif
-	url = git@github.com:espressif/kicad-libraries.git
-[submodule "hardware/libraries/ssd1306"]
-	path = hardware/libraries/ssd1306
-	url = git@github.com:pforrmi/KiCad-SSD1306-128x64.git
