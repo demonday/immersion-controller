@@ -199,7 +199,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "wire_dangling|1993900|787400|0678592d-837d-4ed5-9ca0-9eaf4226814c|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -402,7 +404,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -414,7 +416,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "immersion-controller.kicad_pro",
+    "filename": "power_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
