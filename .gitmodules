@@ -1,6 +1,6 @@
-#[submodule "hardware/kicad_libraries/espressif"]
-#        url = git@github.com:espressif/kicad-libraries.git
-#        active = true
-#[submodule "hardware/kicad_libraries/ssd1306"]
-#        url = git@github.com:pforrmi/KiCad-SSD1306-128x64.git
-#        active = true
+[submodule "hardware/kicad_libraries/espressif"]
+	path = hardware/kicad_libraries/espressif
+	url = git@github.com:espressif/kicad-libraries.git
+[submodule "hardware/kicad_libraries/ssd1306"]
+	path = hardware/kicad_libraries/ssd1306
+	url = git@github.com:pforrmi/KiCad-SSD1306-128x64.git
