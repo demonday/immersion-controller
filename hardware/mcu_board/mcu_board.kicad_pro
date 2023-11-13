@@ -176,6 +176,7 @@
       ],
       "track_widths": [
         0.0,
+        0.6,
         0.76,
         3.81
       ],
@@ -411,7 +412,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "immersion-controller.kicad_pro",
+    "filename": "mcu_board.kicad_pro",
     "version": 1
   },
   "net_settings": {

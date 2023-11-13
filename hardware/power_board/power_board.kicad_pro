@@ -199,9 +199,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "wire_dangling|1993900|787400|0678592d-837d-4ed5-9ca0-9eaf4226814c|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
