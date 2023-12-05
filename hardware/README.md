@@ -23,6 +23,9 @@ See https://www.notion.so/niallgormley/Smart-Domestic-Immersion-Heater-Controlle
 - Fix third-party KiCad libraries in projects/git. ✔️
 - Find a better way of connecting the temp sensors? ✔️
 
+
+## 05/12/2023 - v2 Iteration Observations
+
 ### Ideas for v3 prototype iteration
 
 - Move LED connector to power board (left), and move the connector to the MCU board to the.
